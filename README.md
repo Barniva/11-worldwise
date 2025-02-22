@@ -60,5 +60,4 @@ npm run server
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-Enjoy exploring the world! 🌍✨
 
