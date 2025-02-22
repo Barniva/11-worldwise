@@ -1,34 +1,64 @@
-# 🌟 11-worldwise
+# 🌍 worldwise
 
-A brief description of your website and its main purpose.
+A travel-based web application to explore and manage cities around the world.
 
-## 📋 Table of Contents
+## 🚀 Features
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- 🎨 **Responsive Design** - Optimized for all devices
+- 🌎 **City & Country Listings** - View and explore different locations
+- 🏰 **Protected Routes** - Access control for certain pages
+- 🗺 **Interactive Maps** - View locations with Leaflet
 
-## ✨ Features
+## 🛠 Tech Stack
 
-- 🎨 Responsive design
-- 🔐 User authentication
-- 💾 Data persistence
-- [Add more features specific to your website]
+- ⚛️ React.js
+- 🌍 React Router
+- 🗺 React-Leaflet
+- 📝 JSON Server
 
-## 🛠️ Tech Stack
+## 📂 Project Structure
 
-- Frontend:
-  - React.js
-  - CSS/SCSS
-  - [Add other frontend technologies]
-- Backend:
-  - Node.js
-  - Express.js
-  - [Add other backend technologies]
-- Database:
-  - [Your database choice]
+```
+/worldwise
+│── data/
+│   ├── cities.json
+│── public/
+│   ├── assets & images
+│── src/
+│   ├── components/
+│   ├── contexts/
+│   ├── hooks/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│── .eslintrc.json
+│── package.json
+│── README.md
+│── vite.config.js
+```
 
-## 📁 Project Structure
+## ⚙️ Installation
+
+```sh
+# Clone the repository
+git clone https://github.com/your-repo/11-worldwise.git
+cd 11-worldwise
+
+# Install dependencies
+npm install
+```
+
+## ▶️ Usage
+
+```sh
+# Start the development server
+npm run dev
+
+# Start the JSON server
+npm run server
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+Enjoy exploring the world! 🌍✨
+
